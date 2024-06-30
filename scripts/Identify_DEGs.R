@@ -133,9 +133,9 @@ DimPlot(
   group.by = "celltype"
 )
 
-#save(pbmc_ctx,file = "/boot3/LPH/111data/ROSMAP/pbmc_ctx_new.Rdata")
+#save(pbmc_ctx,file = "pbmc_ctx_new.Rdata")
 
-load("/boot3/LPH/111data/ROSMAP/pbmc_ctx_new.Rdata")
+load("pbmc_ctx_new.Rdata")
 
 data <- pbmc_ctx[["RNA"]]@data
 
